@@ -1,0 +1,14 @@
+body {
+    background-color:papayawhip;
+}
+
+.sign-in {
+    display: flex;
+    height: 200px;
+    justify-content: center;
+    background-color: white;
+    padding: 2em;
+    margin: 300px;
+    max-width: 50%;
+    min-width: 2em;
+}
