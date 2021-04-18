@@ -2,13 +2,19 @@ body {
     height: 100vh;
     width: 100vw;
     background-color: #FCFCF8;
+    background-image:url('https://media4.giphy.com/media/xT9DPEPymVhAwi0mJy/giphy.gif?cid=ecf05e47gu80mde0wkxgrllw6ljddmnjddb5da8gmj18lta9&rid=giphy.gif&ct=g'); background-repeat:repeat;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
+h2 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: -60px;
+}
+
 #card {
-    font-family: Franklin Gothic Medium;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #FFFFFE;
     -webkit-box-shadow: 0px 0px 13px 6px rgba(0,0,0,0.05);
     -moz-box-shadow: 0px 0px 13px 6px rgba(0,0,0,0.05);
@@ -19,23 +25,33 @@ body {
 #login {
     display: flex;
     flex-direction: column;
-    height: 300px;
-    width: 400px;
+    height: 440px;
+    width: 550px;
     justify-content: space-evenly;
     align-items: center;
 }
 
 input {
+    width: 50%;
+    padding-bottom: 10px;
+    outline: none;
     background-color: transparent;
     border-top: transparent;
     border-left: transparent;
     border-right: transparent;
 }
 
+::placeholder {
+    color: lightgrey;
+    font: 1.5em sans-serif;
+    
+}
+
 button {
     background-color:cornflowerblue;
     color: white;
-    font-family: Franklin Gothic Medium;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1em;
     width: 50%;
     height: 13%;
     border-radius: 2em;
@@ -51,3 +67,4 @@ button:hover {
     box-shadow: 0 6px 8px 0 rgba(0,0,0,0.24), 0 8.5px 25px 0 rgba(0,0,0,0.19);
     transform: scale(1.01);
 }
+
